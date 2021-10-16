@@ -3,13 +3,7 @@
 body {
     background-color: #333533;
     font-family: 'Barlow';
-
 }
-
-h1 {
-    text-align: center;
-}
-
 
 a {
     display: block;
@@ -18,8 +12,13 @@ a {
     text-decoration: none;
 }
 
-.navbar {
+ul {
     list-style-type: none;
+    text-align: center;
+}
+
+.navbar {
+
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -28,11 +27,12 @@ a {
     border-bottom: 1px;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
-li a:hover {
-    background-color: #111111;
-}
+
+
 
 .navbar-item {
     padding-left: 30px;
@@ -42,18 +42,20 @@ li a:hover {
     transition: background-color 300ms ease-in-out;
 }
 
+li a:hover {
+    background-color: #111111;
+}
+
 .navbar-item:hover {
 
 }
 
 .active {
-    
     font-weight: bold;
     background-color: #242423;
-
 }
 
-.image1 {
+.text-image-section {
     position: relative;
     text-align: center;
     color: #ffffff;
@@ -65,7 +67,7 @@ li a:hover {
     top: 40%;
     left: 53%;
     transform: translate(-50%,-50%);
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .shade {
@@ -75,4 +77,30 @@ li a:hover {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.list-section {
+    background-color: #252422;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.list-title {
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    color: #e8eddf;
+}
+
+.book-link {
+    padding: 15px;
+    background-color: #f5cb5c;
+    margin: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
 }
