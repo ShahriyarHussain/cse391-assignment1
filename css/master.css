@@ -14,6 +14,15 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #E8EDDF;
+}
+
 .navbar {
     padding: 0;
     margin: 0;
@@ -80,8 +89,11 @@ ul {
     background-color: #252422;
     border-radius: 10px;
     padding: 20px;
-
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-title {
@@ -95,7 +107,7 @@ ul {
 
 
 
-.book-link {    
+.book-link {
     padding: 15px;
     background-color: #f5cb5c;
     margin: 15px;
@@ -105,13 +117,24 @@ ul {
     text-align: left;
 }
 
-.book-link-icon {
+.book-link-item {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
 
+.book-item {
+    width: 85%;
+    padding-right: 5px;
 }
 
 footer {
     background-color: #242423;
 
+}
+
+.book-link div div img {
+    height: 32px;
 }
 
 .name-section {
@@ -148,7 +171,20 @@ footer {
     display: flex;
 }
 
+.icon-section {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
 
+.icon {
+    padding-right: 40px;
+}
+
+.icon-section div img {
+    padding: 40px;
+}
 
 #lastModified {
     font-size: 10px;
