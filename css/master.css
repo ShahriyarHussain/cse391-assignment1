@@ -20,7 +20,7 @@ h1 {
     padding: 20px;
     margin: 20px;
     text-align: center;
-    color: #E8EDDF;
+    color: #E8EDDF
 }
 
 .navbar {
@@ -73,7 +73,7 @@ h1 {
     top: 40%;
     left: 53%;
     transform: translate(-50%,-50%);
-    font-size: 3em;
+    font-size: 40px;
 }
 
 .shade {
@@ -89,7 +89,7 @@ h1 {
     background-color: #252422;
     border-radius: 10px;
     padding: 20px;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     justify-content: center;
