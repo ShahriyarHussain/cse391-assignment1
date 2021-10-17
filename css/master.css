@@ -18,11 +18,10 @@ ul {
 }
 
 .navbar {
-
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333533;
+
     font-size: 20px;
     border-bottom: 1px;
     display: flex;
@@ -30,9 +29,6 @@ ul {
     position: sticky;
     top: 0;
 }
-
-
-
 
 .navbar-item {
     padding-left: 30px;
@@ -55,7 +51,14 @@ li a:hover {
     background-color: #242423;
 }
 
+.image-resizer {
+    height: 800px;
+    width: 100%;
+}
+
 .text-image-section {
+    margin: 0;
+    padding: 0;
     position: relative;
     text-align: center;
     color: #ffffff;
@@ -103,4 +106,17 @@ li a:hover {
     border-radius: 8px;
     font-size: 20px;
     font-weight: normal;
+}
+
+footer {
+    background-color: #242423;
+
+}
+
+
+
+#demo {
+    font-size: 10px;
+    color: #f5cb5c;
+    text-align: center;
 }

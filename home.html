@@ -2,19 +2,24 @@
 <html lang="en" dir="ltr">
     <head>
         <link rel="stylesheet" href="/css/master.css">
+        <script>
+            document.getElementById('lastModified').innerHTML = document.lastModified;
+        </script>
         <meta charset="utf-8">
         <title>Home</title>
     </head>
     <body>
-        <ul class="navbar">
-            <li><a class="active navbar-item" href="#">Home</a></li>
-            <li><a class="navbar-item" href="learn.html">Learn</a></li>
-            <li><a class="navbar-item" href="about_course.html">About CSE391</a></li>
-            <li><a class="navbar-item" href="about_me.html">About Me</a></li>
-        </ul>
+        <header>
+            <ul class="navbar">
+                <li><a class="active navbar-item" href="#">Home</a></li>
+                <li><a class="navbar-item" href="learn.html">Learn</a></li>
+                <li><a class="navbar-item" href="about_course.html">About CSE391</a></li>
+                <li><a class="navbar-item" href="about_me.html">About Me</a></li>
+            </ul>
+        </header>
 
         <div class="text-image-section" >
-            <img src="/assets/connect_hands.png" alt="hands-touching">
+            <img class="image-resizer" src="/assets/connect_hands.png" alt="hands-touching">
             <div class="shade">
             </div>
             <div class="centered">
@@ -26,12 +31,16 @@
         <div class="list-section" style="display: flex;">
             <ul>
                 <li>
-                    <img src="/assets/code-on-laptop.png" alt="code on laptop"/>
+                    <img class="image-resizer"src="/assets/code-on-laptop.png" alt="code on laptop"/>
                 </li>
                 <li>
                     Web Development is fun !!
                 </li>
             </ul>
         </div>
+
+        <footer>
+            <p id="lastModified"></p>
+        </footer>
     </body>
 </html>
