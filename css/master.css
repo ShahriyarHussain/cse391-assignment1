@@ -7,23 +7,19 @@ body {
 
 a {
     display: block;
-    padding: 20px;
-    color: #E8EDDF;
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
-    text-align: center;
 }
 
 .navbar {
     padding: 0;
+    margin: 0;
     overflow: hidden;
-    background-color: #333533;
-
+    background-color: #242423;
     font-size: 20px;
-    border-bottom: 1px;
     display: flex;
     justify-content: center;
     position: sticky;
@@ -31,28 +27,26 @@ ul {
 }
 
 .navbar-item {
+    padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: #E8EDDF;
     transition: background-color 300ms ease-in-out;
 }
 
-li a:hover {
-    background-color: #111111;
-}
-
 .navbar-item:hover {
+    background-color: #111111;
 
 }
 
 .active {
     font-weight: bold;
-    background-color: #242423;
+    background-color:  #333533;
+
 }
 
 .image-resizer {
-    height: 800px;
+    height: 900px;
     width: 100%;
 }
 
@@ -86,7 +80,7 @@ li a:hover {
     background-color: #252422;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+
 
 }
 
@@ -99,13 +93,20 @@ li a:hover {
     color: #e8eddf;
 }
 
-.book-link {
+
+
+.book-link {    
     padding: 15px;
     background-color: #f5cb5c;
     margin: 15px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: normal;
+    text-align: left;
+}
+
+.book-link-icon {
+
 }
 
 footer {
@@ -113,10 +114,46 @@ footer {
 
 }
 
+.name-section {
+    color: #e8eddf;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mypic {
+    width: 250px;
+    height: 250px;
+}
+
+.book-list {
+    display: flex;
+}
 
 
-#demo {
+
+#lastModified {
     font-size: 10px;
     color: #f5cb5c;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 }

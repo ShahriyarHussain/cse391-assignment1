@@ -1,80 +1,97 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <link rel="stylesheet" href="/css/master.css">
-        <meta charset="utf-8">
-        <title> Learn </title>
-    </head>
-    <body>
 
-        <header>
-            <ul class="navbar">
-                <li><a class="navbar-item" href="home.html">Home</a></li>
-                <li><a class="active navbar-item" href="#">Learn</a></li>
-                <li><a class="navbar-item" href="about_course.html">About CSE391</a></li>
-                <li><a class="navbar-item" href="about_me.html">About Me</a></li>
-            </ul>
-        </header>
-        <div class="text-image-section" >
-            <img class="image-resizer" src="/assets/spacex.png" alt="spacex rockets landing">
-            <div class="shade">
-            </div>
-            <div class="centered">
-                “Everybody is a genius.
-                But if you judge a fish by its ability to climb a tree,
-                it will live its whole life believing that it is stupid.”
-                <br /> -Albert Einstein (1879-1955)
-            </div>
+<head>
+    <link rel="stylesheet" href="/css/master.css">
+    <meta charset="utf-8">
+    <title> Learn </title>
+</head>
+
+<body>
+
+    <header>
+        <ul class="navbar">
+            <li><a class="navbar-item" href="home.html">Home</a></li>
+            <li><a class="active navbar-item" href="#">Learn</a></li>
+            <li><a class="navbar-item" href="about_course.html">About CSE391</a></li>
+            <li><a class="navbar-item" href="about_me.html">About Me</a></li>
+        </ul>
+    </header>
+    <div class="text-image-section">
+        <img class="image-resizer" src="/assets/spacex.png" alt="spacex rockets landing">
+        <div class="shade">
         </div>
-        <div class="list-section ">
+        <div class="centered">
+            “Everybody is a genius.
+            But if you judge a fish by its ability to climb a tree,
+            it will live its whole life believing that it is stupid.”
+            <br /> -Albert Einstein (1879-1955)
+        </div>
+    </div>
+
+    <section  style="width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center">
+        <div class="list-section" style="">
             <div class="list-title">
                 My Top 10 Programming Books <br />
                 That I Suggest Reading
             </div>
 
-            <ul>
-                <li class="book-link">
-                    1. Linux System Administrators Handbook<li>
-                <li class="book-link">
-                    2. Advanced Java Programming</li>
-                <li class="book-link">
-                    3. Java Thread Programming</li>
-                <li class="book-link">
-                    4. Graph Algorithm</li>
-                <li class="book-link">
-                    5. The 100$ Startup</li>
-                <li class="book-link">
-                    6. The Lean Startup</li>
-                <li class="book-link">
-                    7. Sprint: How to Solve Big Problems and Test New Ideas in Just 5 Days</li>
-                <li class="book-link">
-                    8. Programming Contest: Data Structure and Algorithms</li>
-                <li class="book-link">
-                    9. The Little Book On REST Services</li>
-                <li class="book-link">
-                    10. REST APIs with Django</li>
-            </ul>
-        </div>
-
-        <div class="list-section ">
-            <div class="list-title">
-                Web Video Tutorials That <br />
-                Helped Me Learn Web Development
+            <div>
+                <ul>
+                    <li class="book-link">
+                        <div style="display: flex; width: 100%; height: 30px;">
+                            <div style="width: 85%">
+                                <a href="www.youtube.com" target="_blank">1. Linux System Administrators Handbook</a>
+                            </div>
+                            <div style="width: 15%;">
+                                <img style="height: 32px;" src="/assets/link.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="book-link">
+                        2. Advanced Java Programming</li>
+                    <li class="book-link">
+                        3. Java Thread Programming</li>
+                    <li class="book-link">
+                        4. Graph Algorithm</li>
+                    <li class="book-link">
+                        5. The 100$ Startup</li>
+                    <li class="book-link">
+                        6. The Lean Startup</li>
+                    <li class="book-link">
+                        7. Sprint: How to Solve Big Problems and Test New Ideas in Just 5 Days</li>
+                    <li class="book-link">
+                        8. Programming Contest: Data Structure and Algorithms</li>
+                    <li class="book-link">
+                        9. The Little Book On REST Services</li>
+                    <li class="book-link">
+                        10. REST APIs with Django</li>
+                </ul>
             </div>
-            <ul>
-                <li class="book-link">
-                    1. Linux System Administrators Handbook<li>
-                <li class="book-link">
-                    2. Advanced Java Programming</li>
-                <li class="book-link">
-                    3. Java Thread Programming</li>
-                <li class="book-link">
-                    4. Graph Algorithm</li>
-                <li class="book-link">
-                    5. The 100$ Startup</li>
-            </ul>
-
         </div>
+    </section>
 
-    </body>
+    <div class="list-section ">
+        <div class="list-title">
+            Web Video Tutorials That <br />
+            Helped Me Learn Web Development
+        </div>
+        <ul>
+            <li class="book-link">
+                1. Linux System Administrators Handbook
+            <li>
+            <li class="book-link">
+                2. Advanced Java Programming</li>
+            <li class="book-link">
+                3. Java Thread Programming</li>
+            <li class="book-link">
+                4. Graph Algorithm</li>
+            <li class="book-link">
+                5. The 100$ Startup</li>
+        </ul>
+
+    </div>
+
+</body>
+
 </html>

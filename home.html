@@ -2,9 +2,6 @@
 <html lang="en" dir="ltr">
     <head>
         <link rel="stylesheet" href="/css/master.css">
-        <script>
-            document.getElementById('lastModified').innerHTML = document.lastModified;
-        </script>
         <meta charset="utf-8">
         <title>Home</title>
     </head>
@@ -15,32 +12,39 @@
                 <li><a class="navbar-item" href="learn.html">Learn</a></li>
                 <li><a class="navbar-item" href="about_course.html">About CSE391</a></li>
                 <li><a class="navbar-item" href="about_me.html">About Me</a></li>
+                <li><a class="navbar-item" href="watch_live.html">Watch Live</a></li>
             </ul>
         </header>
 
-        <div class="text-image-section" >
-            <img class="image-resizer" src="/assets/connect_hands.png" alt="hands-touching">
-            <div class="shade">
+        <section>
+            <div class="text-image-section" >
+                <img class="image-resizer" src="/assets/connect_hands.png" alt="hands-touching">
+                <div class="shade">
+                </div>
+                <div class="centered">
+                    “You can’t connect the dots looking forward,
+                    You can only connect them looking backwards.”
+                    <br />-Steve Jobs (1955-2011)
+                </div>
             </div>
-            <div class="centered">
-                “You can’t connect the dots looking forward,
-                You can only connect them looking backwards.”
-                <br />-Steve Jobs (1955-2011)
+        </section>
+
+        <section>
+            <div>
+                <img class="image-resizer"src="/assets/code-on-laptop.png" alt="code on laptop"/>
             </div>
-        </div>
-        <div class="list-section" style="display: flex;">
-            <ul>
-                <li>
-                    <img class="image-resizer"src="/assets/code-on-laptop.png" alt="code on laptop"/>
-                </li>
-                <li>
-                    Web Development is fun !!
-                </li>
-            </ul>
-        </div>
+            <div class="">
+                I developed this project using html and CSS, of which I didn’t have
+                prior knowledge. It seemed challenging for me until I found some
+                short length YouTube video that helped a lot. You can check them here!
+            </div>
+        </section>
 
         <footer>
             <p id="lastModified"></p>
         </footer>
+        <script type="text/javascript">
+            document.getElementById("lastModified").setinnerHTML = document.lastModified;
+        </script>
     </body>
 </html>
