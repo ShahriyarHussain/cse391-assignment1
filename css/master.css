@@ -59,6 +59,18 @@ h1 {
     width: 100%;
 }
 
+.image-resizer-2 {
+    height: 700px;
+    width: 107%;
+    left: 0;
+}
+
+.image-resizer-3 {
+    height: 700px;
+    width: 100%;
+    left: 0;
+}
+
 .text-image-section {
     margin: 0;
     padding: 0;
@@ -66,6 +78,38 @@ h1 {
     text-align: center;
     color: #ffffff;
     transition: all 1s ease-in;
+}
+
+.split-section {
+    display: flex;
+}
+
+.split-section-image {
+    left: 0;
+}
+
+.split-section-text {
+    text-align: center;
+    color: #e8eddf;
+    padding: 3em;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+}
+
+.text-left {
+    margin-left: 35px;
+}
+
+.text-right {
+
+    margin-right: 35px;
+}
+
+.full-width-section {
+    display: flex;
+    justify-content: center;
+    background-color: #242423;
 }
 
 .centered {
@@ -184,6 +228,35 @@ footer {
 
 .icon-section div img {
     padding: 40px;
+}
+
+.split-section-text p a {
+    color: #f5cb5c;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #f5cb5c;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 16px;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.button a {
+    color: #242423;
+    transition: all 200ms ease-in-out;
+}
+
+.button a:hover {
+    color: white;
+    fornw
+
 }
 
 #lastModified {
