@@ -49,7 +49,10 @@
                 <ul>
                     <li>
                         <div class="school-name">
-                        <div class="dark-button">BRAC University</div> (Bachelor of Science) <br/>
+                        <div class="dark-button">
+                            <a href="https://www.bracu.ac.bd/" target="_blank" class="dark-button">BRAC University</a>
+
+                        </div> (Bachelor of Science) <br/>
                         </div>
                         <div style="font-size: 20px;">
                         <div class="school-time">Summer 2018 - Present</div>
@@ -57,7 +60,9 @@
                     </li>
                     <li>
                         <div class="school-name">
-                        <div class="dark-button">Notre Dame College</div> (Higher Secondary) <br/>
+                        <div class="dark-button">
+                            <a href="https://ndc.edu.bd/" target="_blank" class="dark-button">Notre Dame College</a></div>
+                            (Higher Secondary) <br/>
                         </div>
                         <div style="font-size: 20px;">
                         <div class="school-time">July 2015 - July 2017</div>
@@ -118,23 +123,30 @@
             <div>
                 <h4>Hobbies</h4>
                 <ul>
-                    <li >
-                        <div class="school-name">
-                        <div>1. Reading Books </div>
-                        <div class="dark-button">
-                            My Top 10
+                    <li>
+                        <div class="hobbies">
+                            <div style="margin-right: 50px;">
+                                1. Reading Books
+                            </div>
+                            <div style="margin-left: 20px;">
+                                <a class="dark-button" href="learn.html">My Top 10</a>
+                            </div>
+                            <br/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hobbies">
+                        <div style="margin-right: 10px;">2. Playing Video Games </div>
+                        <div>
+                            <a class="dark-button" href="https://steamcommunity.com/id/the_real_shs/" target="_blank">Steam ID</a>
                         </div>
                         <br/>
                         </div>
                     </li>
                     <li>
-                        <div class="school-name">
-                        <div>1. Reading Books </div>  <br/>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="school-name">
-                        <div>1. Reading Books </div>  <br/>
+                        <div class="hobbies">
+                        <div style="margin-right: 30px;">1. Amateur Photography </div>
+                        <br/>
                         </div>
                     </li>
                 </ul>
@@ -147,7 +159,11 @@
                 <ul>
                     <li>
                         <div class="school-name">
-                        <div class="dark-button">DevLog</div><br/>
+                        <div class="dark-button" >
+                            <a class="dark-button" href="https://github.com/ShahriyarHussain/DevLog" target="_blank">
+                                DevLog
+                            </a>
+                        </div><br/>
                         </div>
                         <div style="font-size: 20px;">
                         <div class="project-desc">A basic blog built using Python,
@@ -156,7 +172,11 @@
                     </li>
                     <li>
                         <div class="school-name">
-                        <div class="dark-button">DocFind</div><br/>
+                        <div class="dark-button">
+                            <a class="dark-button" href="https://github.com/lazoft/docfind" target="_blank">
+                                DocFind
+                            </a>
+                        </div><br/>
                         </div>
                         <div style="font-size: 20px;">
                         <div class="project-desc">A group project, part of an IEEE Contest.
@@ -165,7 +185,11 @@
                     </li>
                     <li>
                         <div class="school-name">
-                        <div class="dark-button">OPlayer</div><br/>
+                        <div class="dark-button">
+                            <a class="dark-button" href="https://github.com/lazoft/Olosh-Player" target="_blank">
+                                OPlayer
+                            </a>
+                        </div><br/>
                         </div>
                         <div style="font-size: 20px;">
                         <div class="project-desc">A simple yet feature rich android video player
@@ -176,6 +200,16 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="lm">
+            <p>Last modified:</p>
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById('last-modified').innerHTML = document.lastModified;
+    </script>
 
 </body>
 

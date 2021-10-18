@@ -338,7 +338,6 @@ footer {
     padding: 5px;
     border-radius: 4px;
     font-weight: bold;
-    border: 5px;
     margin-right: 7px;
 
 }
@@ -431,8 +430,20 @@ td {
 
 }
 
-#last-modified {
-    font-size: 40px;
+.hobbies {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+.go-right {
+    align-items: flex-end;
+}
+
+.lm {
+    font-size: 20px;
     color: #f5cb5c;
     text-align: center;
     padding: 10px;
