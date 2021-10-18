@@ -151,6 +151,7 @@ h1 {
 
 
 
+
 .book-link {
     padding: 15px;
     background-color: #f5cb5c;
@@ -177,8 +178,14 @@ footer {
 
 }
 
-.book-link div div img {
-    height: 32px;
+
+.book-link div div a img {
+    transition: all 1s ease-in-out;
+}
+
+.book-link div div a img:hover {
+    height: 42px;
+    width: 82px;
 }
 
 .name-section {
@@ -226,8 +233,14 @@ footer {
     padding-right: 40px;
 }
 
+.icon-section div {
+    padding: 20px;
+    padding-top: 10px;
+}
+
 .icon-section div img {
-    padding: 40px;
+    padding: 10px;
+    padding-top: 0px;
 }
 
 .split-section-text p a {
@@ -255,12 +268,171 @@ footer {
 
 .button a:hover {
     color: white;
-    fornw
+    font-weight: bold;
 
 }
 
-#lastModified {
-    font-size: 10px;
+.book-link-item. div a img {
+    height: 100px;
+    width: auto;
+}
+
+.info-section {
+    background-color: #242423;
+    display: flex;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.info-section-container {
+    background-color: #f5cb5c;
+    padding: 10px;
+    margin: 5em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.info-section-container-white {
+    background-color: #e8eddf;
+    padding: 10px;
+    margin: 5em;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-section-container-white-2 {
+    background-color: #e8eddf;
+    padding: 10px;
+    margin: 5em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.info-section-container div h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.info-section-container-white div h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.info-section-container-white-2 div h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.dark-button {
+    display: inline;
+    background-color: #242423;
+    color: #f5cb5c;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 5px;
+    margin-right: 7px;
+
+}
+
+.school-name {
+    font-size: 22px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.school-time {
+    padding: 0px;
+    font-weight: light;
+    margin-top: 7px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.school-subject {
+    padding: 0px;
+    font-weight: normal;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+table {
+    padding: 40px;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-spacing: 20px 40px;
+}
+
+tr {
+    padding: 40px;
+    margin: 40px;
+}
+
+td {
+
+}
+
+.td-yellow {
+    font-size: 25px;
+    text-align: center;
+    background-color: #242423;
+    color: #f5cb5c;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.td-dark {
+    font-size: 25px;
+    text-align: center;
+    background-color: #f5cb5c;
+    color: #242423;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.hobbies-link-item {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.hobbies-book-item {
+    width: 85%;
+    padding-right: 5px;
+}
+
+.project-desc {
+    padding: 0px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+#last-modified {
+    font-size: 40px;
     color: #f5cb5c;
     text-align: center;
     padding: 10px;
